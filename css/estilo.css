@@ -8,7 +8,160 @@ and open the template in the editor.
     Author     : Sebastian
 */
 
+a
+{
+    text-decoration: none;  
+    color: #c0c0c0;
+}
 body
 {
+    background: rgb(133, 127, 127);    
+    font-family: 'Open Sans', sans-serif;    
+    font-size: 16px;
+}
+figure figcaption  
+{
+    text-shadow: rgba(0,0,0,0.5) 0.5px 0.5px;
+}
+
+footer
+{
+    background: rgba(73, 122, 189, 0.96);
+    padding: 1em;
+}
+footer p
+{
+    text-align: center;
+}
+header
+{
+    background: rgba(73, 122, 189, 0.96);
+    position: relative;
+}
+
+header #mas 
+{
+     background: rgb(34,34,34);
+     border-radius: 5px;
+     display: block;
+     margin: 0 20px;
+     padding: .8em;
+     -webkit-transition: 0.5s;
+    -moz-transition: 0.5s; 
+}
+header  #mas:hover
+{
+    background: rgba(0,0,0,1);
+    box-shadow: 0 0 30px rgb(0,0,0);
+}
+header #redes-sociales
+{    
+    position: relative;
+}
+header #redes-sociales ul
+{
+    list-style: none;    
+}
+header #redes-sociales ul li
+{
+    display: inline-block;
+    padding:1px;
+}
+header #redes-sociales ul li a img
+{
+    width: 20px;
+}
+header article ul
+{
+    list-style: none;
+}
+nav
+{
+    background: rgb(54, 57, 61);
+    position: relative;
+}
+nav ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0 6em 0 .5em;
+}
+nav ul li
+{
+    display: inline-block;
+    padding: 0 1em 0 0;    
+}
+nav ul li a
+{
+    color: white;
+    display: block;
+    padding: 1em;
+    text-decoration: none; 
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s; 
+}
+nav ul li a:hover
+{
+    background: rgba(73, 122, 189, 0.96);
+}
+#container
+{
+    padding: 0 0 0 0;
+}
+#perfil
+{
+    padding: 1em 0 0.5em 0;
+    text-align: center;    
+}
+#perfil img
+{
+    border: solid white;
+    border-radius: 40px;
+    box-shadow: 0 0 30px rgb(0,0,0);
+    width: 140px;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s; 
+}
+#perfil img:hover
+{
+     box-shadow: 0 0 100px rgb(0,0,0);
     
+}
+
+.articulo-exp
+{
+    margin: 1em;
+}
+
+.etiquetas
+{
+    background: #CCCCCC;
+    padding: 0.5em;
+}
+.etiquetas a
+{
+    background: rgb(34,34,34);
+     border-radius: 5px;
+     display: block;
+     margin: 0 20px;
+     padding: .8em;
+     -webkit-transition: 0.5s;
+    -moz-transition: 0.5s; 
+}
+
+.etiquetas a:hover
+{
+    background: rgba(0,0,0,1);
+    box-shadow: 0 0 30px rgb(0,0,0);
+}
+.etiquetas article
+{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px rgba(146, 131, 131, 0.8);
+    padding: 0.3em 0.5em 0.3em 0.5em;
+}
+.etiquetas article p
+{
+    text-shadow: rgba(219, 219, 219, 0.8) 1px 1px;
 }
